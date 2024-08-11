@@ -1,0 +1,27 @@
+.left-form{
+    -fx-background-color: linear-gradient(to left bottom, #0093E9 , #80D0C7 );
+}
+
+.right-form{
+    /*-fx-background-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+    -fx-background-color: #fff;
+    /*-fx-background-color: linear-gradient(to left bottom, #5cf39e, #79f4b3, #95f5c5, #b1f5d5, #ccf4e3);*/
+}
+
+
+
+/* styles.css */
+/*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );*/
+
+.login-button {
+    -fx-background-color: linear-gradient(to left bottom, #0093E9 , #80D0C7 );
+    -fx-text-fill: white; 
+    -fx-font-size: 14px; 
+    -fx-padding: 8px ; 
+    -fx-border-radius: 5px; 
+    -fx-cursor: hand; 
+}
+
+.login-button:hover {
+    -fx-opacity: 0.9;
+}
